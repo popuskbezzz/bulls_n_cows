@@ -1,0 +1,46 @@
+name: bulls_and_cows
+description: "Игра 'Быки и Коровы'"
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  
+flutter_launcher_icons:
+  android: true
+  ios: false
+  adaptive_icon_background: "assets/images/icon_background.png"
+  adaptive_icon_foreground: "assets/images/icon_foreground.png"
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/background.png
+    - assets/images/logo.png
+    - assets/images/rules.png
+    - assets/images/play.png
+    - assets/images/star.png
+    - assets/images/arrow.png
+    - assets/images/bomb.png
+
+  fonts:
+    - family: Sclate
+      fonts:
+        - asset: assets/fonts/Sclate.ttf
+    - family: PublicPixel
+      fonts:
+        - asset: assets/fonts/PublicPixel.ttf
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/gilroy-light.otf
+        # - asset: assets/fonts/gilroy-medium.ttf
+
+  
